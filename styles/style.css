@@ -1,0 +1,27 @@
+.goit2 {
+    color: purple;
+}
+
+.goit2:hover{
+    background-color: black;
+    color:white
+}
+
+.goit {
+    font-size: 20px;
+}
+
+.test h1 {
+    background-color:rgb(102, 166, 144);
+    color: white;
+}
+
+.test h1:hover{
+    background-color: rgb(85, 114, 147);
+    font-size: 40pxs;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div #arac li {
+    font-size: 25px;
+}
