@@ -1,9 +1,17 @@
+body {
+    font-family: 'Helvetica Neue', 'Roboto', 'Verdana', sans-serif;
+    font-size: 25px;
+}
+
+p,a,span{
+    color:burlywood;
+}
 .goit2 {
-    color: purple;
+    color:white;
 }
 
 .goit2:hover{
-    background-color: black;
+    background-color:rgb(100, 100, 139);
     color:white
 }
 
@@ -12,16 +20,90 @@
 }
 
 .test h1 {
-    background-color:rgb(102, 166, 144);
+    background-color:rgb(25, 113, 82);
     color: white;
 }
 
 .test h1:hover{
-    background-color: rgb(85, 114, 147);
+    background-color: rgb(9, 39, 73);
     font-size: 40pxs;
     font-family: 'Times New Roman', Times, serif;
 }
 
 div #arac li {
     font-size: 25px;
+}
+
+.social-links .link {
+    color: teal;
+}
+
+.social-links .link:hover {
+    color: olive;
+}
+
+.social-links .link:active {
+    color: rgb(171, 115, 115);
+}
+
+.social-links .link:focus {
+    color: rgb(133, 105, 133);
+}
+
+p {
+    color: rgb(153, 200, 153);
+}
+
+section>p {
+    color: rgb(163, 134, 79);
+}
+
+.pelementi{
+    color:rgb(96, 26, 26);
+}
+
+#pid{
+    color: rgb(58, 75, 75);
+}
+
+.post {
+    color: green;
+}
+
+.post-link {
+    color: inherit;
+}
+.kutucuk{
+    background-color: brown;
+    color: white;
+    width: 50%;
+    height: 200px;
+    border: 2px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: left;
+    text-indent: 30px;
+}
+
+.kutucuk p{
+    font-weight: 800;
+}
+
+.goit-css{
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: rgb(236, 174, 174);
+    line-height: 40px;
+}
+
+.shadow{
+   font-size: 30x;
+   text-shadow: 2px 2px 10px black;
+   marg
+
+}
+.shadow span{
+    color: blueviolet;
+    font-weight: 900;
+    font-size: 16px;
 }
